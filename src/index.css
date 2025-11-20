@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(35, 35, 35);
+    color: white;
+}
+.to-do-list{
+    background-color: rgba(1, 244, 179, 0.781);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.task{
+    background-color: bisque;
+    width: 100%;
+    color: black;
+    text-transform: inherit;
+    margin-top : 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.List-item{
+    background-color: aliceblue;
+    margin: 5px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: bold;
+    border: 1px black solid;
+    border-radius: 5px;
+    
+}
+#Delete-button{
+    margin-right: 5px;
+    margin-left: 100px;
+}
+#MoveUp-Button{
+    margin-right : 5px;
+}
